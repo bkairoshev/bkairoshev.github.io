@@ -1,0 +1,28 @@
+{
+  "name": "omarta",
+  "version": "1.0.0",
+  "description": "Honey shop",
+  "main": "index.html",
+  "author": "bek",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel src/index.html --port 5500 --no-cache --public-url / --open",
+    "build": "parcel build src/index.html --out-dir build --no-cache --public-url ."
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/plugin-transform-runtime": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/runtime-corejs2": "^7.12.5",
+    "cssnano": "^4.1.10",
+    "sass": "^1.32.5"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  },
+  "dependencies": {
+    "boxicons": "^2.0.7"
+  }
+}

@@ -216,8 +216,8 @@ function displayCart() {
       cartBody.append(cartItem)
     })
   } else {
-    cartElement.classList.remove('preview')
     cartElement.classList.remove('show')
+    cartElement.classList.remove('preview')
   }
 
 }

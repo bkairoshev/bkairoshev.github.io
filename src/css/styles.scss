@@ -390,7 +390,7 @@ img {
     color: var(--title-color);
     display: grid;
     gap: 0.5rem;
-    grid-template-rows: 2rem max(20rem) 8rem;
+    grid-template-rows: 2rem 1fr 8rem;
     align-content: space-between;
     font-weight: var(--font-semi-bold);
   }
@@ -412,6 +412,7 @@ img {
     border-radius: 1.5rem;
     background-color: var(--body-color);
     padding: 0.5rem;
+    max-height: 20rem;
     overflow-y: scroll;
   }
 
